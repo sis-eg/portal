@@ -4,6 +4,25 @@
 // http://www.sis-eg.com/
 // ----------------------------------------------------------------------
 require_once 'services/cdk/lang/'.pnUserGetLang().'/global.php';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 $GLOBALS['contentTypeCommonFields'] = array(
 											array('title_'.pnUserGetLang() => _CNT_PAGE_TITLE_FIELD,
 											      'fieldName' => 'page_title',
