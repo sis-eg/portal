@@ -3,6 +3,10 @@
 // Copyright (C) 2008 by the Saman Information Structure Development Team.
 // http://www.sis-eg.com/
 // ----------------------------------------------------------------------
+
+
+
+
 $modversion['name']           = 'cdk';
 $modversion['version']        = '2.0';
 $modversion['description']    = 'Content Development Kit';
