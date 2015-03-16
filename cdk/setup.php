@@ -7,6 +7,12 @@
 
 
 
+
+
+
+
+
+
 // comment by jalali
 function cdk_init() {	
 	if (pnModAvailable('fdk')) {		
