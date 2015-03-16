@@ -1,12 +1,13 @@
 <?php
-// comment by jalali
+// Saman Portal
+// Copyright (C) 2008 by the Saman Information Structure Development Team.
+// http://www.sis-eg.com/
+// ----------------------------------------------------------------------
 function cdk_init() {
-	if (pnModAvailable('fdk')) {		
-		cdk_defaultdata();    	
-		return true;
-	}	
-	
-    $content_typestable = $pntable['content_types'];
+    list($dbconn) = pnDBGetConn();
+    $pntable = pnDBGetTables();
+
+    $content_typestab1le = $pntable['content_types'];
     $content_typescolumn = &$pntable['content_types_column'];
     $sql = "CREATE TABLE $content_typestable (
    				$content_typescolumn[ctp_id] int(11) not null auto_increment,
