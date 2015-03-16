@@ -1,20 +1,6 @@
 <?php
-// Saman Portal
-// Copyright (C) 2008 by the Saman Information Structure Development Team.
-// http://www.sis-eg.com/
-// ----------------------------------------------------------------------
-
-
-
-
-
-
-
-
-
-
 // comment by jalali
-function cdk_init() {	
+function cdk_init() {
 	if (pnModAvailable('fdk')) {		
 		cdk_defaultdata();    	
 		return true;
