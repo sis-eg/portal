@@ -7,6 +7,7 @@ function cdk_init() {
     list($dbconn) = pnDBGetConn();
     $pntable = pnDBGetTables();
 
+
     $content_typestab1le = $pntable['content_types'];
     $content_typescolumn = &$pntable['content_types_column'];
     $sql = "CREATE TABLE $content_typestable (
