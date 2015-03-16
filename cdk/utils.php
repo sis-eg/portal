@@ -3,10 +3,8 @@
 //newsletter functions
 pnModLoad('cdk','user');
 pnModLoad('cdk','admin');
-function cdk_admin_newsletter_config_show($args)
-{
-	pnModAPILoad('cdk','user');
 
+function cdk_admin_newsletter_config_show($args) {
 	extract($args);
 	$settings=unserialize($settings);
 
@@ -259,7 +257,6 @@ function cdk_format_output($content,$type)
 	{
 		$dir="rtl";	
 	}
-	$title=$type['title'];
 	$title=unserialize($title);
 	$title=$title[pnUserGetLang()];
 	$output="<br/>".$content;
