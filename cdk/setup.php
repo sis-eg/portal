@@ -4,6 +4,10 @@
 // http://www.sis-eg.com/
 // ----------------------------------------------------------------------
 
+
+
+
+// comment by jalali
 function cdk_init() {	
 	if (pnModAvailable('fdk')) {		
 		cdk_defaultdata();    	
